@@ -1,4 +1,4 @@
-# MiniProjects
+# Mini Projects
 
 
 ## File Sorter
