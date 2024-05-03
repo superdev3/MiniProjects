@@ -4,7 +4,7 @@
 ## File Sorter
 
 **How to use:**
-> The file sorter can moved to a directory that you want to sort. Then run the file and wait for it to confirm that it has completed sorting. Enter a sentence into the prompt and it will Display in Green the correct words and the incorrect/unknown words. To end the program please press the `x` in the top right corner of the window.
+> The file sorter can moved to a directory that you want to sort. Then run the file and wait for a confirmation that it has completed sorting. Enter a sentence into the prompt and it will Display in Green the correct words and the incorrect/unknown words. To end the program please press the `x` in the window's top right corner.
 
 **How does it work?**
 > After it has been moved to the directory that needs to be sorted, it loops through all the files in the directory and adds them to the res array. Then it loops through the array and renames every file to a format based on their index in the array.
@@ -26,4 +26,4 @@
 
 **Why was this created?**
 
-> Unlike most of my Mini Projects this one really didn't have a good reason for its creation. The main reason this was created was to test the rich library and the english_words library. This can be refactored in the future to be part of a text input or something similar to a spell highlighter.
+> Unlike most of my Mini Projects this one didn't have a good reason for its creation. The main reason this was created was to test the rich library and the english_words library. This can be refactored in the future to be part of a text input or something similar to a spell highlighter.
