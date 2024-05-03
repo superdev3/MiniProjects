@@ -18,7 +18,7 @@
 ## Spelling Checker
 
 **How to use:**
-> First you have to open a terminal and run `pip install rich` and `pip install english_words`. Now you can run the Spelling Checker file and it will open a terminal window. 
+> First you have to open a terminal and run `pip install rich` and `pip install english_words`. Now you can run the Spelling Checker file and it will open a terminal window. After it has been run, it will ask you for a sentence to check. Press enter and it will show you in Green all the correct words and in red all the incorrect words. To end the program you can press the little `x` in the top right of the window, or you can press `ALT + F4`.
 
 **How does it work?**
 
