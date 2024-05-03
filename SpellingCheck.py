@@ -22,10 +22,8 @@ while True:
     
     checkedWorldList = CheckWords(userInput)
     
-    consoleOutput = checkedWorldList[0]
-    
     # Turns List to string
-    for iteration in range(0, len(checkedWorldList)):
-        consoleOutput = consoleOutput + " " + checkedWorldList[iteration]
-
+    consoleOutput = " ".join(checkedWorldList)
+    
     print(consoleOutput)
+
