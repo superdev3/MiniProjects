@@ -27,3 +27,18 @@
 **Why was this created?**
 
 > Unlike most of my Mini Projects this one didn't have a good reason for its creation. The main reason this was created was to test the rich library and the english_words library. This can be refactored in the future to be part of a text input or something similar to a spell highlighter.
+
+
+
+## Phone Number Tracer
+
+**How to use:**
+> First you have to open a terminal and run `pip install phonenumbers`. Now you can run the Phone Number Tracer file and it will open a terminal window. After it has been run, it will ask you for a phone number to trace. Press enter and you should see the Geolocation of where the Simcard linked to that phone number is or is registered. To end the program you can press the little `x` in the top right of the window, or you can press `ALT + F4`.
+
+**How does it work?**
+
+> After receiving the input, the number is passed to the phonenumbers.geocoder library. Then the returned string is printed to the Standard Output. Then the loop repeats.
+
+**Why was this created?**
+
+> The reason for the creation of this truly small project is that I saw a YouTube Short showing this library and its commands. This project was to test the library. I felt that its useful to upload and show others.
