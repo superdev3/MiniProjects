@@ -1,7 +1,7 @@
 # Mini Projects
 
 **General Information:**
-> This repository houses a collection of my smaller projects that I believe don't necessitate their own repository. For detailed information about each script, please refer to the README.md file.
+> This repository houses a collection of smaller projects that I believe don't require their own repository. For detailed information about each script, please take a look at the README.md file.
 
 
 ## File Sorter
@@ -45,3 +45,18 @@
 **Why was this created?**
 
 > The reason for the creation of this truly small project is that I saw a YouTube Short showing this library and its commands. This project was to test the library. I felt that its useful to upload and show others.
+
+
+
+## Ip Address Geo Locator
+
+**How to use:**
+> You can run the IP Address Geo Locator file and it will open a terminal window. After it has been run, it will ask you for an `IpV4 Address` to trace. Press enter and you should see the general public information about the IP address. This includes City, Region, Country, Location, Time zone, ASN and Google Maps Link to Geolocation. The Geolocation is not accurate but is most likely to be in the right country. To end the program you can press the little `x` in the top right of the window, or you can press `ALT + F4`.
+
+**How does it work?**
+
+> After receiving the input, the program sends a Get HTTPS request to ``https://ipinfo.io/` (Example: https://ipinfo.io/{ip_address}/json). Then it uses F Strings to print the information to the terminal. Then this repeats.
+
+**Why was this created?**
+
+> There is no direct reason for the creation of this project. However, this was strongly inspired by Spelis (https://github.com/Spelis/simple/blob/main/geolocator/main.py) who is my friend and is aware and consented to this being refactored and uploaded to my Github.
