@@ -55,7 +55,7 @@
 
 **How does it work?**
 
-> After receiving the input, the program sends a Get HTTPS request to ``https://ipinfo.io/` (Example: https://ipinfo.io/{ip_address}/json). Then it uses F Strings to print the information to the terminal. Then this repeats.
+> After receiving the input, the program sends a Get HTTPS request to `https://ipinfo.io/` (Example: `https://ipinfo.io/{ip_address}/json`). Then it uses F Strings to print the information to the terminal. Then this repeats.
 
 **Why was this created?**
 
