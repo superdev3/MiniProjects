@@ -17,5 +17,5 @@ while (True):
             print(f"Google Maps: https://google.com/maps/?q={request_json['loc']}")
             
         case _:
-            print("[Error] retrieving Ip Information")
+            print("[Error] Could not get Ip Information")
             continue
